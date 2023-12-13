@@ -1,0 +1,1 @@
+web: bokeh serve --port=$PORT --allow-websocket-origin=http://your-app-name.herokuapp.com loans.py
