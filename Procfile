@@ -1,1 +1,1 @@
-web: bokeh serve --port=$PORT --allow-websocket-origin=https://loan-simulator-0d789bc3dbba.herokuapp.com/ --address=0.0.0.0 --use-xheaders loans.py
+web: bokeh serve --port=$PORT --allow-websocket-origin=loan-simulator-0d789bc3dbba.herokuapp.com --address=0.0.0.0 --use-xheaders loans.py
