@@ -5,7 +5,7 @@ from bokeh.models import ColumnDataSource, DateRangeSlider, Slider, TextInput, B
 from bokeh.layouts import column, row
 from bokeh.client import push_session
 import pytz
-
+#
 # Your existing functions with minor adjustments
 def get_min_payment(years, R, P):
     r = (R/100)/12
